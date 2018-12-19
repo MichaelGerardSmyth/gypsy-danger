@@ -1,0 +1,49 @@
+#header{
+	
+}
+
+#logo{
+	text-align:right;
+	height: 20px;
+	width:50px
+}
+
+#list1{
+
+}
+body{
+	background-color:#003366;
+}
+
+.text1{
+	text-align:center;
+}
+
+.border1{
+	
+	background-attachment: fixed;
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 5px;
+	border-radius: 5px;
+	max-width: 50%;
+	min-width: 40%;
+	background-color:#ffffff;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 550px;
+    margin-left: 550px;
+	padding: 5px 5px 5px 5px;
+}
+
+.column{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
